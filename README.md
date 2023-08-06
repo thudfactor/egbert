@@ -1,6 +1,14 @@
 # egbert README
 
-Egbert is a blogging AI assistant who will provide metadata for your blog posts based on the content of your posts. Y
+Egbert is a blogging AI assistant who will provide metadata for your blog posts based on the content of your posts. 
+
+This VSCode extension is not yet published on any marketplace. To test it out in your own environment:
+
+1. Clone this repository and run `npm install` 
+2. Run `npm run vscode:package` to create a VSIX file
+3. Install the VSIX file in VSCode by opening the command palette and selecting `Extensions: Install from VSIX...`
+
+A sample egbert.yaml file is located in /test-content/egbert.yaml. You can copy this file to your workspace directory and customize it to your liking.
 
 *Important*: You will need to provide your own [OpenAI API key](https://platform.openai.com/overview). 
 
@@ -26,7 +34,7 @@ This extension contributes the following settings:
 
 ## Known Issues
 
-Egbert is still in development. Please report any issues you find, or any suggestions you have, to the [Egbert Github Issues Page]().
+Egbert is still in development. Please report any issues you find, or any suggestions you have, to the [Egbert Github Issues Page](https://github.com/thudfactor/egbert/issues).
 
 ## Release Notes
 
