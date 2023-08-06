@@ -1,0 +1,8 @@
+model: gpt-3.5-turbo
+instructions: 
+  sentimentAnalysis: Describe the sentiment of this blog post in a paragraph. Do this first.
+  suggestedTitles: Supply three catchy suggested titles for this blog post.
+  tone: Provide three words that describe the tone of this blog post.
+  points: Provide three points that the blog post makes.
+  summary: Provide a short, humorous teaser for the blog post. Avoid calls to action, and do not refer to the blog post in the summary.
+  score: based on the sentiment analysis, provide a single whole-number score for the movie described by the blog post.
